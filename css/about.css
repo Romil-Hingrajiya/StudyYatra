@@ -1,0 +1,60 @@
+/* About Section */
+.about {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2.5rem auto;
+}
+
+.about-content .reverse {
+    flex-direction: row-reverse;
+}
+
+.about-content img {
+    width: 49%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.about-text {
+    width: 49%;
+    text-align: left;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content.reverse {
+        flex-direction: column-reverse; 
+    }
+
+    .about-content img {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-text ul {
+        text-align: left;
+    }
+}
