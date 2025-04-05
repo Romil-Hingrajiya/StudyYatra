@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/price.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/slideshow.css">
+
     <!-- fonts -->
     <!-- tagline font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,16 +31,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- progress-bar -->
     <div id="progress-bar"></div>
-
-    <!-- bubble-container -->
-    <!-- <div class="bubble-container"></div> -->
-
 
     <!-- Header -->
     <header class="header">
@@ -164,7 +161,7 @@
                         </li>
                     </ul>
 
-                    <div class="mobile-device" style="margin: 2rem auto; margin-left: -25px" >
+                    <div class="mobile-device" style="margin: 2rem auto; margin-left: -25px">
                         <button class="light-btn-price">ENROLL NOW</button>
                     </div>
                 </nav>
@@ -192,10 +189,6 @@
                     learning experience tailored to your needs. Whether you're looking to upskill, explore new
                     knowledge, or advance your career, we provide the tools and support to help you succeed.
                 </p>
-                <!-- <ul class="bold-para" style="margin: 1.7rem 0;">
-                    <li>Flexible Learning – Study at your own pace, anytime, anywhere.</li>
-                    <li>Affordable Pricing – High-quality education that fits your budget.</li>
-                </ul> -->
                 <p class="bold-para" style="text-align: center; margin-top: 2rem;">Join us today and take the next step
                     in your learning
                     journey.</p>
@@ -210,12 +203,12 @@
                     Empowering learners with interactive courses, expert support, and globally recognized certifications
                     to help them achieve their dreams.
                 </p>
-                <!-- <ul>
-                    <li>✔ Practical & Hands-On Training</li>
-                    <li>✔ Dynamic & Engaging Lessons</li>
-                    <li>✔ 24/7 Learning Support</li>
-                    <li>✔ Recognized Industry Certifications</li>
-                </ul> -->
+                <ul>
+                    <li class="para">✔ Practical & Hands-On Training</li>
+                    <li class="para">✔ Dynamic & Engaging Lessons</li>
+                    <li class="para">✔ 24/7 Learning Support</li>
+                    <li class="para">✔ Recognized Industry Certifications</li>
+                </ul>
                 <p class="bold-para" style="text-align: center; margin-top: 2rem;">
                     <b>Your journey to success starts here!</b>
                 </p>
@@ -225,24 +218,76 @@
     </section>
 
     <!-- Testimonial section -->
-    <section class="container">
+    <div class="" style="text-align: center; margin: 2.5rem auto; width: 92%;">
         <h2 class="title">Our Clients Speak – Experience the Difference !</h2>
-        <p class="bold-para" style="margin-bottom: 4rem;">Discover how our expert-led courses have transformed careers
-            and unlocked new opportunities for learners worldwide. From skill enhancement to career growth, our students
-            share their journeys and experiences. See how Study Yatra has made a real impact—one success story at a time
-        </p>
-        <div class="testimonial-container">
-            <button class="testimonial-prev">❮</button>
-            <div class="testimonial-wrapper">
-                <div class="testimonial-slider">
-                    <div class="testimonial-slide">Testimonial 1</div>
-                    <div class="testimonial-slide">Testimonial 2</div>
-                    <div class="testimonial-slide">Testimonial 3</div>
-                    <div class="testimonial-slide">Testimonial 4</div>
-                    <div class="testimonial-slide">Testimonial 5</div>
+    </div>
+
+    <section class="testimonial-container" id="testimonialContainer">
+        <div id="testimonial">
+
+            <div class="slider">
+                <div class="slide-row" id="slide-row">
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>I’ve taken dozens of online courses, but none matched the quality and clarity this
+                                platform offers. The social media strategy course helped me scale my clients’ engagement
+                                by 3x. Totally worth it.</p>
+                            <h2>Scarlet Johnson</h2>
+                            <p>Social Media Strategist</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-1.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>As someone switching careers into tech, I found the full stack development course
+                                incredibly helpful. Everything was explained so clearly, and the real-world projects
+                                gave me the confidence to start freelancing.</p>
+                            <h2>Alicia Verma</h2>
+                            <p>Full Stack Developer Trainee</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-2.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>This platform completely changed the way I learn. The digital marketing course gave me
+                                real-world skills that helped me land more freelance projects. The content was so
+                                well-structured and beginner-friendly—highly recommended.</p>
+                            <h2>Sarah Fernandes</h2>
+                            <p>Digital Marketing Consultant</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-3.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>This platform helped me sharpen my skills with real-world labs and expert guidance. The
+                                cybersecurity course was practical, up-to-date, and boosted my confidence at work
+                                instantly</p>
+                            <h2>Tanvi Nair</h2>
+                            <p>Cybersecurity Analyst</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-4.png" alt="avatar">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="testimonial-next">❯</button>
+
+            <div class="indicator">
+                <span class="testimonial-btn active"></span>
+                <span class="testimonial-btn"></span>
+                <span class="testimonial-btn"></span>
+                <span class="testimonial-btn"></span>
+            </div>
+
         </div>
     </section>
 
@@ -279,12 +324,18 @@
                     <li class="para" style="text-align: left;"><a href="./courses.html">Python & AI Mastery</a></li>
                     <li class="para" style="text-align: left;"><a href="./courses.html">Mobile App Development</a></li>
                     <li class="para" style="text-align: left;"><a href="./courses.html">Digital Marketing & SEO</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">Graphic Design & Video Editing</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">Ethical Hacking & Cybersecurity</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">Data Science & Analytics</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">Blockchain & Web3 Development</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">Game Development & 3D Modeling</a></li>
-                    <li class="para" style="text-align: left;"><a href="./courses.html">YouTube & Social Media Growth</a></li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">Graphic Design & Video
+                            Editing</a></li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">Ethical Hacking &
+                            Cybersecurity</a></li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">Data Science & Analytics</a>
+                    </li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">Blockchain & Web3
+                            Development</a></li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">Game Development & 3D
+                            Modeling</a></li>
+                    <li class="para" style="text-align: left;"><a href="./courses.html">YouTube & Social Media
+                            Growth</a></li>
                 </ul>
             </div>
             <div class="col-4">
@@ -332,11 +383,13 @@
             </div>
         </div>
         <div class="footer-2">
-            <b class="para" style="font-weight: 700; opacity: 0.7;">© 2025 | Made with ❤️ by HETVI. All Rights Reserved.</b>
+            <b class="para" style="font-weight: 700; opacity: 0.7;">© 2025 | Made with ❤️ by HETVI. All Rights
+                Reserved.</b>
         </div>
     </footer>
 
 
+    <script src="js/testimonials.js"></script>
     <script src="js/main.js"></script>
 
 </body>

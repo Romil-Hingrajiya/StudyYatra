@@ -36,9 +36,7 @@
 
     <!-- progress-bar -->
     <div id="progress-bar"></div>
-
-    <!-- bubble-container -->
-    <!-- <div class="bubble-container"></div> -->
+    
 
 
     <!-- Header -->
@@ -867,26 +865,80 @@
     </section>
 
     <!-- Testimonial section -->
-    <section class="container">
+    <!-- Testimonial section -->
+    <div class="" style="text-align: center; margin: 2.5rem auto; width: 92%;">
         <h2 class="title">Our Clients Speak – Experience the Difference !</h2>
-        <p class="bold-para" style="margin-bottom: 4rem;">Discover how our expert-led courses have transformed careers
-            and unlocked new opportunities for learners worldwide. From skill enhancement to career growth, our students
-            share their journeys and experiences. See how Study Yatra has made a real impact—one success story at a time
-        </p>
-        <div class="testimonial-container">
-            <button class="testimonial-prev">❮</button>
-            <div class="testimonial-wrapper">
-                <div class="testimonial-slider">
-                    <div class="testimonial-slide">Testimonial 1</div>
-                    <div class="testimonial-slide">Testimonial 2</div>
-                    <div class="testimonial-slide">Testimonial 3</div>
-                    <div class="testimonial-slide">Testimonial 4</div>
-                    <div class="testimonial-slide">Testimonial 5</div>
+    </div>
+
+    <section class="testimonial-container" id="testimonialContainer">
+        <div id="testimonial">
+
+            <div class="slider">
+                <div class="slide-row" id="slide-row">
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>I’ve taken dozens of online courses, but none matched the quality and clarity this
+                                platform offers. The social media strategy course helped me scale my clients’ engagement
+                                by 3x. Totally worth it.</p>
+                            <h2>Scarlet Johnson</h2>
+                            <p>Social Media Strategist</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-1.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>As someone switching careers into tech, I found the full stack development course
+                                incredibly helpful. Everything was explained so clearly, and the real-world projects
+                                gave me the confidence to start freelancing.</p>
+                            <h2>Alicia Verma</h2>
+                            <p>Full Stack Developer Trainee</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-2.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>This platform completely changed the way I learn. The digital marketing course gave me
+                                real-world skills that helped me land more freelance projects. The content was so
+                                well-structured and beginner-friendly—highly recommended.</p>
+                            <h2>Sarah Fernandes</h2>
+                            <p>Digital Marketing Consultant</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-3.png" alt="avatar">
+                        </div>
+                    </div>
+
+                    <div class="slide-col">
+                        <div class="content">
+                            <p>This platform helped me sharpen my skills with real-world labs and expert guidance. The
+                                cybersecurity course was practical, up-to-date, and boosted my confidence at work
+                                instantly</p>
+                            <h2>Tanvi Nair</h2>
+                            <p>Cybersecurity Analyst</p>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="./images/testimonial-bg-4.png" alt="avatar">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="testimonial-next">❯</button>
+
+            <div class="indicator">
+                <span class="testimonial-btn active"></span>
+                <span class="testimonial-btn"></span>
+                <span class="testimonial-btn"></span>
+                <span class="testimonial-btn"></span>
+            </div>
+
         </div>
     </section>
+
 
     <!-- subscribe -->
     <section class="container">
@@ -1039,6 +1091,8 @@
 
 
     <script src="js/main.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/testimonials.js"></script>
 
 </body>
 
